@@ -1,0 +1,695 @@
+■ IT
+◯IT
+　「Information Technology」の頭文字を取った単語で直訳は「情報技術」。
+　ノイマン型コンピュータを用いた周辺技術の総称。
+　　・ノイマン型コンピュータ
+　　　ハンガリーの数学者ジョン・フォン・ノイマンによって提唱された、コンピュータの基本構成のこと。
+　　参考：https://www.weblio.jp/content/IT
+　　　　　https://www.internetacademy.jp/it/programming/programming-basic/it_usage_something_field.html
+　　　　　https://www.weblio.jp/content/ノイマン型コンピュータ
+
+◯ICT
+　「Information and Communication Technology」の頭文字を取った単語で直訳は「情報通信技術」。
+　ITとほぼ同じ意味を持つが、情報技術だけではなく、その情報を共有するためのコミュニケーションの意味が強調されている。
+　ITが情報技術の総称であるのに対し、ICTは情報と通信技術の総称と言える。
+　　参考：https://kotobank.jp/word/ICT-13781
+　　　　　https://www.internetacademy.jp/it/programming/programming-basic/it_usage_something_field.html
+
+◯IoT
+　「Internet of Things」の略称で直訳は「モノのインターネット」。
+　従来インターネットに接続されていなかった様々なモノがネットワークを通じてサーバーやクラウドサービスに接続され、相互に情報交換をする仕組み。
+　例：テレビ、エアコン、冷蔵庫、車…
+　　参考：https://aws.amazon.com/jp/iot/what-is-the-internet-of-things/
+
+■ OS
+◯OS
+　「Operating System」の頭文字を取った単語で、直訳すると「演算処理を行うシステム」。
+　アプリやデバイスを動作させるための基本となるソフトウェアのこと。
+　流れ：【ユーザー】−【アプリケーション】−【OS】-【ハードウェア】
+　簡単に言うと、ユーザーがコンピュータを動かしやすくするための基盤となるシステム。
+　　参考：http://www.toha-search.com/it/os.htm
+　　　　　https://ja.wikipedia.org/wiki/オペレーティングシステム
+
+◯Windows
+　Microsoft社が開発したOS。
+　シェアが９割。
+　　参考：https://www.pc-master.jp/words/windows.html
+
+◯macOS (Mac OS X)
+　Apple社が開発したOS。
+　他社のハードウェアにOSを乗せる形を取るWindowsと違い、Apple社はハードウェアごと手がけている。
+　シェアが１割。
+　　参考：https://www.apple.com/jp/macos/what-is/
+
+◯UNIX
+　アメリカの大手電話会社であるAT&T社（元々はベル研究所）が開発したOS。
+　UNIX自体のシェアは少ないが、macOSの基盤になっていたり、他にもUNIXを元にしたOSは数多く存在する。
+　　参考：https://proengineer.internous.co.jp/content/columnfeature/2660
+　　　　　https://eng-entrance.com/programming-os
+
+◯Linux
+　ヘルシンキ大学で当時大学院生だったLinus Torvaldsが開発したOS。
+　無料で使えて中身もいじれるオープンソースのOS。
+　教育用として使用されていたUNIX、MINIXを基盤に開発された。
+　　・ディストリビューション
+　　　カーネルと呼ばれる中核部分だけではなく、他に必要なソフトも含めたLINUXの配布形態のこと。
+　　　有名なディストリビューション：Red Hat Enterprise Linux、CentOS、Ubuntu　など
+　　　　参考：https://wa3.i-3-i.info/word12473.html
+　　参考：https://proengineer.internous.co.jp/content/columnfeature/2660
+　　　　　https://eng-entrance.com/programming-os
+
+■ 言語・環境
+そもそも、ITサービスの多くは
+　【クライアント】−インターネット−【サーバー】
+の構造で成り立っている。
+フロントエンドはクライアント側、サーバーエンドはサーバー側で動く作業、および環境を指す。
+　参考：https://www.sejuku.net/blog/100525
+　　　　
+◯フロントエンド
+　サーバーサイドの対義語で、主にWebサイトの構築やカスタマイズ等、ユーザーが目に触れる部分を作成する。
+　ユーザーがWebを操作する際、画面が動いたり、サーバーから情報を受け取るなどの仕組みを構築する。
+　　参考：https://stepup-engineer.com/front-end-engineer-server-side-engineer-difference
+　　　　　https://qiita.com/ming_hentech/items/8c77993d209289719719
+
+以下、フロントエンドで用いられる言語の説明。
+・HTML
+　「Hyper Text Markup Language」の略で、Webページを作成する際の最も基本的な言語。
+　ほとんどのWebサイトがこの言語を元に作成されている。
+　由来①：Hyper Text
+        ハイパーリンクが挿入できる。
+　由来②： Markup
+　　　　　文章は「タイトル」「見出し」「段落」などで構成されているが、コンピュータはその区切りを判断できない。
+　　　　　目印をつけると、コンピュータにも文章構造が理解できるようになる。
+　　参考：https://nandemo-nobiru.com/web-5214
+
+・マークアップ
+　HTMLを用いて文章構造の意味づけを行っていく作業。
+　　参考：https://webliker.info/54111/
+
+・CSS
+　「Cascading Style Sheets」の略で、HTMLと同様Webページを作成する際の言語。
+　HTMLが文章構造を作る言語であるのに対し、CSSはデザインや見栄え等を良くする言語と言われている。
+　Webページ　＝　HTML（文章構造）　＋　CSS（見栄え）
+　余談だが、名前の由来は「階段状の滝のように」「連鎖的に伝わる」みたいな意味を持つ。
+　　例：「大きな文字」→「大きな文字、青い背景」→「大きな文字、青い背景、白い文字」
+　　参考：https://techacademy.jp/magazine/4857
+　　　　　http://www.htmq.com/csskihon/006.shtml
+
+・JavaScript
+　ざっくりとWebページに動きをつける言語。
+　　参考：https://proengineer.internous.co.jp/content/columnfeature/11532
+
+　HTML：文章に「見出し」や「段落」等の構造を明確化させる言語。
+　CSS：HTMLにプラスして、「文字や背景の色」や「余白」等のデザインを設定する言語。
+　JavaScript：「メッセージボックスの表示」、「カレンダー」、「地図」、「ゲーム」など、様々な動的コンテンツを作成できる言語。
+
+◯サーバーサイド
+　フロントサイドの対義語でその名の通りサーバー側で動くプログラミングを作成する。
+　サーバー内部で動き、フロントエンドからの指示に対して処理を行う仕組みを作る。
+　　参考：https://eng-entrance.com/programming-serverside
+　　　　　https://qiita.com/ming_hentech/items/8c77993d209289719719
+
+以下、サーバーサイドで用いられる言語の説明。
+・.NET（C#, VB）
+　Microsoft社が開発したネットワーク上でアプリケーションを構築する基盤システム。
+　主にMicrosoft.NET Frameworkというアプリケーション、または開発環境を指す言葉。
+　　参考：https://wepicks.net/itglossary-dotnet/
+　　　　　https://hnavi.co.jp/knowledge/blog/dotnet/
+
+・Java
+ プログラミング言語の一つ。
+　特徴として非常に汎用性が高く、OSに依存しない。
+　　参考：https://techacademy.jp/magazine/9250
+
+　・Java SE
+　　「Java Pletform,Standard Edition」の略で、Javaの基本機能をまとめたもの。
+　　　　API：「Application Programming Interface」の略。
+
+　・Java EE（Jakarta EE）
+　　「Java Platform,Enterprise Edition」の略で、JavaSEを元にサーバーサイドの機能を追加したもの。
+　　簡単にいうと、「JavaSE　＋　拡張機能」
+　　　参考：https://www.sejuku.net/blog/12902
+
+・Perl
+　ラリー・ウォールによって開発された言語。
+　主にWeb開発に用いられる。
+　　参考：https://www.geekly.co.jp/column/cat-technology/1911_011/　
+
+・PHP
+　The PHP Groupが開発したプログラミング言語。
+　HTMLの中にタグを埋め込むようにしてコードを書くことが可能で、Web開発でよく使用される。
+　同じスクリプト言語として、Java Scriptと比較されることが多いが、Java Scriptはフロントエンドで動作するため、誰でもコードの閲覧か可能だが、PHPはサーバーサイドでコードが実行されるため、どのようなコードで導き出されたのか見れない。
+　　参考：https://www.kagoya.jp/howto/wordpress/php/
+　　　　　https://techacademy.jp/magazine/6618
+
+・Ruby
+　まつもとゆきひろが開発したオブジェクト指向スクリプト言語。
+　　参考：https://techacademy.jp/magazine/6959
+
+　プログラミング言語比較：https://techacademy.jp/magazine/6959
+
+■ サーバーソフト
+　ソフトウェアの種類の一つで、外部の別のソフトウェアからの要求に応じて機能やデータなどを提供する。
+　単に「サーバー」と略して呼ぶことが多いが、「ハード」を表す場合と「ソフト」を表す場合の2種類が存在するため、注意が必要。
+　余談で、ITサービスは、
+　【クライアント】−インターネット−【サーバー】
+　という構造を取っているが、クライアントからサーバーに送る情報を「リクエスト」、サーバーがクライアントに送り返す情報を「レスポンス」と呼ぶ。
+　　参考：https://www.weblio.jp/content/サーバーソフト
+　　　　　https://eng-entrance.com/web-server-mechanism
+
+以下に説明する3つのサーバーソフトはWebサーバーに分類される。
+　・Webサーバー
+　　主にクライアント側であるブラウザのリクエストに応えて、自身で保管するHTMLファイルやCSSファイルなどを送信する。
+　　　参考：http://e-words.jp/w/Webサーバ.html
+
+・Apache（読み：アパッチ）
+　Apache Sohtware財団が開発した、世界的に最も普及されているWebサーバーソフトの一つ。
+　Apacheはオーブンソースで誰でも無料でコードの閲覧が可能なため、多くの開発社が改良して高いクオリティーを保っている。
+　Webサーバーのシェアは1位。（2020年4月現在）
+　　参考：http://e-words.jp/w/Apache.html
+　　　　　https://madalinazaharia.com/column/role-and-features-of-apache/
+
+・nginx（読み：エンジンエックス）
+　Nginx社が開発したWebサーバーソフトで、Webサーバーのシェアは2位。（2020年4月現在）
+　大量処理が得意で処理速度が比較的速い等のスピード感に関する特徴が挙げられる。
+　参考：https://www.kagoya.jp/howto/rentalserver/nginx/
+　
+・IIS
+　Microsoft社が開発したWindowsのWebサーバーソフト。
+　　参考：http://e-words.jp/w/IIS.html
+　
+
+■ SQL
+○SQL
+　「Structured Query Language」の略で、安易な直訳だと「構造化問い合わせ言語」。
+　プログラミング言語とは異なり、デーダベースの定義や操作を行う際に用いる言語。
+　　参考：https://hnavi.co.jp/knowledge/blog/sql/
+　　　　　http://e-words.jp/w/SQL.html
+
+以下、基本的な用語の意味を記す。
+　・データベース
+　　データを集積し活用しやすいように整理した情報群のこと。
+　　一般にコンピュータ上で管理するデータを指すことが多いが、紙面上の電話帳や住所録もデータベースに該当する。
+　　　参考：https://proengineer.internous.co.jp/content/columnfeature/6411
+　
+　・リレーショナルデータベース
+　　各データに行と列を割り振り、それらをテーブルと呼ばれる表に並べたデータベースのこと。
+　　　参考：https://www.weblio.jp/content/リレーショナルデータベース管理システム　　　
+
+　・データベース管理システム
+　　その名の通り、データベースを管理するシステムおよびソフトウェアを指す。
+　　　参考：https://rfs.jp/sb/sql/s01/01-19.html
+
+以下、有名なデータベース管理システムを紹介する。
+・DB2
+　アメリカのIBM社のリレーショナルデータベース管理システムおよび関連ソフトウェアのブランド名。
+　複数のデータベースを作成することが可能で、個々のデータベースごとに設定することができる。
+　　参考：http://e-words.jp/w/DB2.html
+　　　　　https://agency-star.co.jp/column/db2/
+
+・MySQL
+　Michael “Monty” Widenius氏という個人が開発したオーブンソースリレーショナルデータベース管理システム。
+　　参考：https://www.sejuku.net/blog/9021
+
+　・Maria DB
+　　MySQLから派生したオープンソースリレーショナルデータベースシステム。
+　　　参考：https://www.ossnews.jp/oss_info/MariaDB
+
+・Oracle DB
+　オラクル社が開発したリレーショナルデータベース管理システム。
+　　参考：https://docs.oracle.com/cd/E57425_01/121/CNCPT/intro.htm
+
+・PostgreSQL
+　カリフォルニア大学バークレー校のコンピュータ・サイエンス学部のプロジェクトで開発されたオープンソースリレーショナルデータベース管理システム。
+　　参考：https://codezine.jp/article/detail/11753
+
+・SQLite
+　比較的気軽に取り扱うことができるリレーショナルデータベース管理システム。
+　　参考：https://blog.pyq.jp/entry/Python_kaiketsu_200227
+
+・SQL Server
+　Microsoft社が開発したリレーショナルデータベース管理システム。
+　OSでのシェア率９割を誇るWindowsとの相性がよいため、それに比例し使用人口は多い。
+　　参考：https://sql-oracle.com/sqlserver/?p=665
+
+○CRUD
+　データベース管理システムに必要とされる4つの主要な機能の頭文字を取った単語。
+　C：Create…作成
+　R：Read…読み出し
+　U：Update…更新
+　D：Delete…削除
+　　参考：https://www.weblio.jp/content/CRUD
+
+○トランザクション
+　ソフトウェアの処理方式の一つで、互いに関連する複数の処理をまとめて一体不可分の処理単位として扱うこと。
+　一体化された処理は「すべて成功」か「すべて失敗」のいずれかに分類される。
+　例えば、資金の出金・入金処理は「すべて成功」か「すべて失敗」で分けられるが、そうでない場合、「出金に成功して入金に失敗する」のような、資金が宙ぶらりんになる事態が起こる。
+　参考：http://e-words.jp/w/トランザクション.html
+
+・コミット
+　コミットはトランザクションが全て正常に完結したという宣言のこと。
+　コミットされた時点で、トランザクションにおける処理が確定され、データベースが更新される。
+　　参考：https://qiita.com/komattio/items/838ea5df68eb076e8099
+　　　　　https://www.sophia-it.com/content/コミット
+
+・ロールバック
+　トランザクションにおいて、取り消しを行うこと。
+　ロールバックを行うとデータベースはトランザクション開始前の状態に戻り、これまでの更新をなかったことにする。
+　コミット後はロールバックはできない。
+　　参考：https://qiita.com/komattio/items/838ea5df68eb076e8099
+　　　　　https://www.sophia-it.com/content/コミット
+
+排他制御を説明する前に、一般にデータベースに入っているデータを更新する際の流れを説明する。
+①該当するデータを取り出す。
+②取り出したデータを加工する。
+③加工した内容で更新をする。
+　参考：https://wa3.i-3-i.info/word18402.html
+
+○排他制御（排他ロック）
+　ファイルへの書き込みが行われている間は、別のプログラムによる書き込みを制御するシステム、またはその仕組み。
+　ファイルに書き込みを行っている際に別のプログラムが書き込みを行われると、ファイルの内容が破壊され、整合性のないものになってしまうため、それを防ぐ。
+　　参考：http://e-words.jp/w/排他制御.html
+
+・楽観ロック
+　ざっくり説明すると、滅多なことでは他者との同時更新は起きないだろう、という楽観視が前提の排他ロック。
+　データそのもの対してロックは行わず、更新対象のデータがデータ取得時と同じかどうかを確認してから更新することで、データの整合性を保証する方式。
+　　参考：https://qiita.com/NagaokaKenichi/items/73040df85b7bd4e9ecfc
+　　　　　https://qiita.com/NagaokaKenichi/items/73040df85b7bd4e9ecfc
+
+・悲観ロック
+　ざっくりと説明すると、他者が頻繁に更新するはずだ、という悲観視が前提の排他ロック。
+　更新対象のデータを取得する際にロックをかけることで、他のトランザクションから更新されないようにする方式。
+　　参考：https://qiita.com/NagaokaKenichi/items/73040df85b7bd4e9ecfc
+
+○実行計画
+　実際に実行されるプログラムの概要を提示したもの。
+　　参考：https://gihyo.jp/dev/serial/01/game_mysql/0003
+
+○チューニング
+　プログラムやシステム設定などを改良して、必要メモリー量や実行速度を改善すること。
+　　参考：https://kotobank.jp/word/チューニング-10506
+　　　　　http://e-words.jp/w/チューニング.html
+
+○パフォーマンス
+　システムやその部品がどの程度よく機能するか、成果を発揮するかといった性能の度合いを表す単語。
+　　参考：https://www.sophia-it.com/content/パフォーマンス
+
+○スロークエリ
+　直訳すると「遅い問い合わせ」で、時間のかかっているSQLのことを指す。
+　　参考：http://cloudeo.jp/word/glossary/slowquery.html
+
+○クエリログ
+　クライアントからのMySQLサーバへの接続・接続解除の情報および、クライアントから実行された全てのSQLクエリを出力してくれるログ。
+　・クエリ
+　　データベースに対して、命令したり検索をかけた文やキーワードのこと。
+　　　参考：https://it-trend.jp/words/query
+　　参考：https://weblabo.oscasierra.net/mysql-general-query-log-1/
+
+○IDE（統合開発環境）
+　「Integrated Development Environment」の略。
+　プログラミングをする際に必要なソフトウェアを統合し、一つの画面で操作できるようにしたもの。
+　　参考：https://www.sejuku.net/blog/98980
+
+以下、有名なIDE紹介。
+・Eclipse
+　IBM社によって開発されたIDE。
+　Javaを始めとする様々なプログラミング言語によるソフトウェア開発に対応していて、オープンソースであることが特徴。
+　　参考：http://e-words.jp/w/Eclipse.html
+　　　　　https://www.elite-network.co.jp/dictionary/eclipse.html
+
+・NetBeans
+　オラクル社が中心となって開発したIDE。
+　オラクル社が開発していることから、Javaの最新版にいち早く対応できることが特徴。
+　Eclipsと同じオープンソースのIDEだが、Eclipsの方がより普及されている印象。
+　　参考：https://www.ossnews.jp/oss_info/NetBeans
+
+・SpringToolSuite
+　Spring Frameworkの開発元（Pivotal社他）が開発したIDE。
+　Spring Bootの開発を行うために用いられる。
+　　・Spring Boot
+　　　JavaによるWebアプリケーション開発を効率的に行う仕組みを備えたフレームワーク。
+　　　　参考：https://agency-star.co.jp/column/spring-boot
+　　参考：https://www.tuyano.com/index3?id=7576003
+
+○DBツール
+　データベースにネットワークを通じて接続するためのソフトウェアのこと。
+　　参考：https://www.sejuku.net/blog/49776
+
+・A5:SQL Mk-2
+　松原正和氏が開発したSQL開発ツール。
+　SQLの入力支援やER図作成等ができる。
+　　参考：https://sql-oracle.com/?p=75#toc3
+
+・pgAdmin
+　PostgreSQLを利用するためのツール。
+　　参考：http://www.tukaikata-labo.com/content/3783
+
+・DBeaver
+　DBeaver社が開発したSQL開発ツール。
+　　参考：https://bake0937.hatenablog.com/entry/2020/04/27/220430
+
+・MySQL Workbench
+　MySQL公式が提供するSQL開発ツール。
+　GUIでの操作が可能。
+　　参考：https://qiita.com/saki-engineering/items/b4a5f61d5632c952a6cb
+　　　　　https://proengineer.internous.co.jp/content/columnfeature/6443#section204
+
+・Sequel Pro
+　Mac用のMySQLをGUIで操作できるSQL開発ツール。
+　　参考：https://itneko.com/mysql-sequel-pro/
+
+・TeamSQL
+　２０１９年２月末にサービス終了したSQL開発ツール。
+　今現在はDateRowという別サービスに移行している。
+　　参考：https://cod-sushi.com/teamsql-was-gone/
+
+■ 肩書
+○PM
+ プロジェクトマネージャー。　開発プロジェクトの取りまとめを行う役割を持つ、会社でいうところの管理職。
+　主な仕事はシステム構築ではなく、プロジェクトやメンバーのマネージメント。
+　　参考：http://key-sys.com/role-of-each-member/
+○PL
+　プロジェクトリーダー。
+　中規模から大規模なプロジェクトの際、PMが全体に目を配ることが難しくなると、PLを立てる。
+　PMの補佐のような役割で、システムの進捗具合のチェックだけでなく、メンバーの管理も行う。
+　　参考：http://key-sys.com/role-of-each-member/
+
+○SE
+　システムエンジニア。
+　プロジェクトチーム内ではメンバーという扱いになり、開発メンバーの一員として担当作業が割り振られる。
+　システム開発の上流工程を行う場合が多い。
+　　参考：http://key-sys.com/role-of-each-member/
+　　　　　http://www.aroundpc.net/persony/
+
+○PG（PE）
+　プログラマー。
+　主な仕事は、SEの手足となって、SEが指示したプログラミングの構築、単体テストを行うこと。
+　システム開発の下流工程を行う場合が多い。
+　　参考：http://key-sys.com/role-of-each-member/
+　
+○デザイナー
+　文字通りデザインを手がける仕事。
+　　参考：https://www.internetacademy.jp/it/design/web-design/work-and-types-of-designer.html
+
+○エンジニア
+　プログラミング技術を利用してものづくりを行う技術者の総称。
+　　参考：https://web-camp.io/magazine/archives/25682
+
+・フロントエンド・エンジニア
+　WebサービスやWebアプリケーションなど、直接ユーザーの目に触れる部分の開発を行うエンジニア。
+　　参考：https://www.internetacademy.jp/it/programming/javascript.html
+
+・サーバーサイド・エンジニア
+　システムやサイトを利用するユーザーの目に触れることのない部分を担当するエンジニア。
+
+・バックエンド・エンジニア
+　サーバーサイドと混同しやすいが、バックエンドはWeb領域に特化したエンジニアで、サーバーサイドはアプリやソフトウェアの開発・運用の現場でのデータベース構築やシステム領域に特化しているエンジニアとして住み分けが行われている。
+
+　サーバーサイドエンジニアとバックエンドエンジニアの違い：https://achievement-hrs.co.jp/ritori/?p=1262#outline__1_2
+
+■ UI（ユーザーインターフェース）
+○UI
+　「User Interface」の頭文字をとった単語で、直訳は「ユーザーとの接触面」。
+　コンピュータを扱うときに利用者が情報を受け取ったり入力したりするための仕組み。
+　すごく平たく言うと、操作感を左右しているもの。
+
+・インターフェイス
+　何か二つのものの間でやり取りを行うときの方法や方式、手順などを指す。
+　一般に何を繋ぐかによって分類が異なる。
+　①ハードウェアインターフェイス：機械と機械を繋ぐ
+　②ソフトウェアインターフェイス：ソフトとソフトを繋ぐ
+　③ユーザーインターフェイス：人間と何か（主にデバイス）を繋ぐ
+　　参考：https://blog.btrax.com/jp/ui-basics/
+
+・CUI
+　「Character User Interface」の略で、直訳は「文字のユーザーインターフェイス」。
+　キーボードに入力されるコマンドによって、操作を行うユーザーインターフェイスのこと。
+　主にUNIXやLinuxなどのOS、ルーターなどの機器の操作・保守管理、SQL言語を用いたデータベースの操作で用いられる。
+　　参考：https://www.pc-master.jp/words/cui-gui.html
+
+・GUI
+　「Graphical User Interface」の略で、直訳は「画像や図画のユーザーインターフェイス」。
+　マウスだけで操作を行うユーザーインターフェイスのこと。
+　スマホを開くとアプリアイコンがずらっと並んでいる画面が出てくるが、それはGUIに該当する。
+　広い意味では、銀行のATM、カーナビなどの視覚的に操作できる機器やシステムもGUIに該当する。
+　　参考：https://design-plus1.com/tcd-w/2019/12/cui-gui.html
+　　　　　https://www.pc-master.jp/words/cui-gui.html
+　
+■ ファイル／ディレクトリ
+○ファイル
+　写真、動画、テキストなどまとまりを持った一つ一つのデータのこと。
+　ファイルには以下２種類がある。
+　①プログラムファイル：OSやアプリ等に付随する様々なソフトウェア全般。
+　②データファイル：スマホで撮影した写真やパソコンで作成したExcel等、ユーザーが自分で作成したオリジナルのファイル。
+　　参考：http://www.toha-search.com/pc/file-folder.htm
+
+○拡張子
+　ファイルに割り当てられたそのファイルの種類を示した文字列のこと。
+　それぞれに対応したアプリケーションが存在する。
+　　参考：http://www.toha-search.com/pc/file-folder.htm
+
+○ディレクトリ
+　ファイルを分類するための入れ物であり、複数のファイルを保管する場所。
+　フォルダと大体イコールの概念だが、GUIはフォルダ、 CUIはディレクトリと呼ぶことが多い。
+　（だから、この課題の提出方法にもフォルダじゃなくてディレクトリ指定だったのかも）
+　　参考：https://uxmilk.jp/27546
+
+ディレクトリは階層によって呼び方が異なるので、以下ではその呼び方の違いを紹介。
+・ルート・ディレクトリ
+　直訳すると「大本のディレクトリ」。
+　階層の一番上にあるディレクトリを指す。
+　　参考：https://www.weblio.jp/content/ルートディレクトリ
+
+・カレント・ディレクトリ
+　直訳すると「現在いるところのディレクトリ」。
+　ユーザーが現時点で作業を行っているディレクトリを指す。
+　　参考：https://www.weblio.jp/content/カレントディレクトリ
+
+○パス
+　コンピュータないで特定の資源の所在を表す文字列のこと。
+　ストレージ内でファイルやディレクトリの位置を表すのに用いられる。
+　現職でいうところのファイルの格納先。
+　例：「C:\Windows\system32\」、「/usr/bin/perl」
+　　参考：http://e-words.jp/w/パス.html
+
+・絶対パス
+　ルートディレクトリから目的フォルダまでの経路を示す。
+
+・相対パス
+　カレント・ディレクトリから目的フォルダまでの経路を示す。
+
+　　絶対パスと相対パスの違い：https://service.plan-b.co.jp/blog/seo/14016/
+　　　　　　　　　　　　　　　https://techacademy.jp/magazine/5801
+
+■ ネットワーク
+○LAN
+　「Local Area Network」の略。
+　限られた範囲内にあるコンピュータや通信機器、情報機器などをケーブルや無線電波などで接続し、相互にデータ通信できるようにしたネットワークのこと。
+　　参考：http://e-words.jp/w/LAN.html
+
+○WAN
+　「Wide Area Network」の略。
+　離れた地点感を結ぶ通信ネットワーク。
+　通信事業者が設置・運用する回線網のことを指すことが多い。
+　　参考：http://e-words.jp/w/WAN.html
+
+○クライアント
+　顧客、依頼人、得意先等の意味を持つ英単語。
+　ITの分野では、他のコンピュータやソフトウェアから機能や情報の提供を受けるコンピュータのことを指す。
+　　参考：http://e-words.jp/w/クライアント.html
+
+○サーバー
+　他のコンピュータに対し、自身の持っている機能やサービス、データなどを提供するコンピュータのこと。
+　　参考：http://e-words.jp/w/サーバ.html
+
+■ 各種プロトコル
+○プロトコル
+　手順、手続き、儀礼等の意味を持つ英単語。
+　ITの分野では、信号やデータ、情報を相互に伝送できるよう、あらかじめ決められた約束事や手順のこと。
+　　参考：http://e-words.jp/w/プロトコル.html
+　　　　　https://kotobank.jp/word/プロトコル-8535
+
+○HTTP
+　「Hyper Text Transfer Protocol」の略で、直訳は「ハイパーテキスト転送プロトコル」。
+　［Webサーバー］ー［Webクライアント］間でデータ送受信を行うために用いられるプロトコル。
+　HTML、スクリプト、画像・音声・動画等のファイルなどを含めてやり取りすることができる。
+　　参考：http://e-words.jp/w/HTTP.html
+
+○FTP
+　「File Transfer Protocol」の略で、直訳は「ファイル転送プロトコル」。
+　［FTPサーバー］ー［FTPクライアント］間でデータ送受信を行うために用いられるプロトコル。
+　インターネット上でファイルを移動させる際の最も一般的な方法。
+　　参考：https://blog.ipswitch.com/jp/what-is-file-transfer-protocol-ftp
+
+○HTTPS
+　「Hyper Text Transfer Protocol Secure」の略で、直訳は「ハイパーテキスト転送プロトコル安全ver」。
+　HTTPにプラスして、通信内容が暗号化されるのが特徴。
+　　参考：https://cybersecurity-jp.com/security-measures/25772
+
+○SSL
+　「Secure Sockets Layer」の略で、直訳は「安全な接続口構造」。
+　HTTPやFTPなどのプロトコルで行われる通信を暗号化して安全に送受信するためのプロトコル。
+　　参考：https://ejje.weblio.jp/content/SSL
+
+○SSH
+　「Secure Shell」の略で、直訳は「安全な保護」。
+　ネットワーク上のコンピュータを遠隔操作するためのプロトコル。
+　パスワード情報を含めて、全て暗号化されてやり取りが行われる。
+　　参考：https://it-trend.jp/encryption/article/64-0057
+
+○ポート
+　港という意味を持つ英単語で、ITの分野では機器やソフトウェアが外部の別のコンピュータと接続・通信するための末端部分を指す。
+　　参考：https://kotobank.jp/word/ポート-8747
+
+○ポート番号
+　コンピュータが通信に使用するプログラムを識別するための番号。
+　ネットワーク通信で必要なのは「プロロコル」「IPアドレス」「ポート番号」だが、
+　マンションで例えると「どのような方法」で「どこのマンション」の「何号室」に入るか、と言い換えられる。
+　　参考：https://www.nic.ad.jp/ja/basics/terms/port-number.html
+　　　　　https://eng-entrance.com/network-port-2
+　
+○HTTP、FTP、SSHの各ポート番号
+　HTTP：８０
+　FTP：２１
+　SSH：２２
+　　参考：https://memorva.jp/memo/linux/port_protocol.php
+
+○ファイアウォール
+　外部ネットワークからの攻撃から内部ネットワークを保護するシステム。
+　主に外部ネットワークと内部ネットワークの中継地点に設置され、セキュリティ上通信させると問題があるようなものを制御・監視する。
+　　参考：https://www.atmarkit.co.jp/ait/articles/0401/01/news062.html
+
+○TCP
+　「Transmission Control Protocol」の略で、直訳は「伝達制御プロトコル」。
+　IPと同様にインターネットにおいて標準的に利用されているプロトコル。
+　IPの上位互換でトランスポート層で動作する。
+　　参考：https://www.infraexpert.com/study/tcpip7.html
+
+■ IPアドレス
+○IPアドレス
+　パソコンやスマートフォン、ダブレットなどでネットワーク通信を行う場合に利用される。
+　ネットワーク上の危機を識別するために割り当てられていて、インターネット上の住所のような役割を持つ。
+　ドットで区切られた最大１２文字の数字で割り当てられる。
+　　参考：https://www.cman.jp/network/term/ip/
+　　　　　https://www.kagoya.jp/howto/network/ipaddress/
+　　　　　https://grupo.jp/help/article/ip_and_domain
+
+・グローバルIPアドレス
+　全世界で通用するIPアドレス。
+・プライベートIPアドレス
+　同一ネットワーク内でのみ通用されるIPアドレス。
+　　参考：https://wa3.i-3-i.info/diff120ipaddress.html
+　　　　　https://www.geolocation.co.jp/learn/ip/06.html
+
+■ ドメイン
+○ドメイン
+　インターネット上の住所のような役割で、IPアドレスと違い、group.jpのような人間にわかりやすい文字に置き換えたもの。
+　　参考：https://grupo.jp/help/article/ip_and_domain
+
+○DNS
+　「Domain Name System」の略で、インターネット上でドメイン名を管理するために開発されたシステム。
+　具体的に、数字で表されるIPアドレスを人間にも理解できるようにドメインに変更するため仕組み。
+　　参考：https://www.nic.ad.jp/ja/basics/beginners/dns.html
+　　　　　https://www.nadukete.net/domain-guide/setting/dns.html
+
+○VPN
+　「Virtual Private Network」の略で、直訳は「仮想専用線」。
+　公衆回線を使用した企業などの通信網で、専用線のように使用できるが、専用線より格安。
+　　参考：https://japan.norton.com/vpn-8553
+
+○ブリッジ
+　ネットワーク上でケーブルに流れるデータを中継する機能を持った装置のこと。
+　　参考：https://homepage-sakusei-kaisha.com/it-yougojisho/pasokon-shuuhenkiki/setsuzokuyoukiki/burijji.html
+
+○プロキシサーバー
+　プロキシとは英語で代理の意味で、インターネットに直接接続できないコンピュータに代わり、インターネットに接続し、Webサイトへのアクセスなどを行うサーバーのことを指す。
+　　参考：https://www.otsuka-shokai.co.jp/words/proxy-server.html
+　　　　　https://cybersecurity-jp.com/security-measures/32171
+
+■ 電子メール
+○SMTP
+　「Simple Mail Transfer Protocol」の略で、簡易的な訳は「簡単なメールの送信手順」。
+　メールを相手のメールサーバーまで届ける仕組み。
+　　参考：https://time-space.kddi.com/ict-keywords/kaisetsu/20170824/2081
+
+○POP
+　「Post Office Protocol」の略で、簡易的な訳は「郵便局の手順」。
+　メールソフトが自動的にメールサーバーにアクセスしてメールをダウンロードしてくれる仕組み。
+　　参考：https://time-space.kddi.com/ict-keywords/kaisetsu/20170824/2081
+
+○IMAP
+　「Internet Message Access Protocol」の略で、簡易的な訳は「インターネット上のメッセージにアクセスする手順」。
+　POPと同様、メールを取り込むための手順だが、違いはメールをサーバーに残すか残さないか。
+　POPはメールを一旦スマホやパソコンに取り込むと、サーバーからなくなるが、IMAPはメールのコピーを取り込むので、メール本体はサーバーから無くならず管理はサーバーが行う。
+　　参考：https://time-space.kddi.com/ict-keywords/kaisetsu/20170824/2081
+
+■ セッションとクッキー
+○セッション
+　一連のインタラクティブな操作のこと。
+　例：ECサイトの場合
+　　　商品を探す→カートに入れる→購入する
+　　参考：https://qiita.com/taoki11111/items/4c103683ac46ec851017
+
+○クッキー
+　ホームページを訪問したユーザーの情報を一時的に保存する仕組み、またはそのデータ。
+　ID、パスワード、メールアドレス、訪問回数などがユーザー情報として保存され、再訪問した際にユーザーを特定し情報を入力する手間を省く。
+　　参考：https://qiita.com/taoki11111/items/4c103683ac46ec851017
+
+○キャッシュ
+　閲覧したWebページの情報を一時的に保存する機能。
+　一時的に保存されるという仕組みではクッキーと似ているが、違いは保存される内容。
+　クッキーは上記の通り、ID、パスワード等の個人情報や閲覧データが保存されるが、キャッシュはページのHTMLや画像データが保存される。
+　何度も頻繁に訪問するWebページはキャッシュが保存されているため、立ち上がりが早い。
+　　参考：https://qiita.com/taoki11111/items/4c103683ac46ec851017
+　　　　　https://design-plus1.com/tcd-w/2019/07/cookie-cache.html
+
+■ DB（データベース）について
+○インデックス
+　索引と呼ばれ、データベースへのアクセス効率を向上させるために、検索対象となる一つ以上の列や属性に対して設定される仕組み。
+　　参考：https://www.itpassportsiken.com/word/インデックス.html
+
+■ テストについて
+○フロー
+　①ソフトウェアやプログラミングの分野
+　　プログラムを構成する命令や手続き、処理の流れなどのこと。
+　②通信の分野
+　　回線をつうして伝送される信号やデータの流れを「データフロー」あるいは単にフローという。
+　　　参考：http://e-words.jp/w/フロー.html
+
+■ チケット管理ツール
+○チケット管理
+　実施すべき作業や課題を「チケット」として管理する方法。
+　発生日や作業内容、優先度、担当者や期日を登録して管理する。
+　　参考：https://it-trend.jp/project_management/article/33-0025
+
+○タスク
+　コンピュータの分野ではソフトウェアの実行単位を指す。
+　　参考：http://e-words.jp/w/タスク.html
+　　　　　https://homepage-sakusei-kaisha.com/it-yougojisho/pasokon/jouhoushori/tasuku.html
+
+■ バージョン管理
+○バージョン管理
+　システムの変更を管理すること。
+　プロジェクトの中で更新されていく様々な成果物の変更の履歴を成果物そのものを含めて記録すること。
+　ファイルを書き換えると、いつ、誰が、どこに、どのような変更を行ったかが記録される。
+　　参考：https://eng-entrance.com/git-vesion-control
+
+以下、有名なバージョン管理システムを紹介。
+○Git
+　分散型のバージョン管理システム。
+　ローカル環境にすべての変更履歴を含む完全なリポジトリの複製が作成されることが特徴。
+　　参考：https://blog.sixapart.jp/2014-03/mttips-02-what-is-git.html
+
+○SVN
+　オーピンソースの集中型バージョン管理システム。
+　　参考：http://e-words.jp/w/Subversion.html
+
+○デグレ
+　デグレートの略称。
+　新しいバージョンのソフトウェアの品質が以前より悪くなること。
+　　参考：http://e-words.jp/w/デグレード.html
+
+○マージツール
+　ソフトウェアの開発現場において、コンフリクトや不整合などの干瀬さん的な作業を効率化するツール。
+　　参考：https://codezine.jp/article/detail/10980
+　　　　　https://www.atmarkit.co.jp/ait/articles/1501/19/news002.html
