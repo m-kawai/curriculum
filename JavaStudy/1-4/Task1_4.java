@@ -1,3 +1,5 @@
+import java.util.jar.Attributes.Name;
+
 /**
  * Task1-4: 課題内容
  *
@@ -8,8 +10,8 @@
 public class Task1_4 {
     // 定数（条件）
     // ① 名前とパスワードの定数を定義してください。
-    final String NAME = "alice";
-    final String PASS = "pass";
+    private static final String NAME = "alice";
+    private static final String PASS = "password";
 
     // 補足:
     //   定数は②〜⑤で使い回すために定義しておきます。
@@ -27,17 +29,17 @@ public class Task1_4 {
          String name = "alice";
          String pass = "pass";
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
-        if (name.equals("alice") && pass.equals("pass")){
+        if ((name == NAME) && (pass == PASS)){
             System.out.println(CONST_MSG_SUCCESS);
         }
 
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-        else if(name.equals("alice") && !(pass.equals("pass"))){
+        else if((name == NAME) && !(pass == PASS)){
             System.out.println(CONST_MSG_ERROR_PASS);
         }
 
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-        else if(!(name.equals("alice")) && pass.equals("pass")){
+        else if(!(name == NAME) && (pass == PASS)){
             System.out.println(CONST_MSG_ERROR_NAME);
         }
 
