@@ -1,0 +1,43 @@
+/*ウィンドウ幅が767pxまでの場合*/
+@media screen and (max-width: 767px) {
+
+    /*headerの横幅を250pxにする*/
+    .header {
+        width: 250px;
+    }
+
+    /*rightの横幅を100pxにする*/
+    .right {
+        width: 100px;
+    }
+
+    /*footerの横幅を250pxにする*/
+    .footer {
+        width: 250px;
+    }
+}
+
+/*ウィンドウ幅が479pxまでの場合*/
+@media screen and (max-width: 479px) {
+
+    /*headerの横幅を150pxにする*/
+    .header {
+        width: 150px;
+    }
+
+    /*要素の浮動化解除*/
+    .left {
+        float: none;
+    }
+
+    /*rightの横幅を150pxにする*/
+    .right {
+        float: none; /*要素の浮動化解除*/
+        width: 150px;
+    }
+
+    /*footerの横幅を150pxにする*/
+    .footer {
+        width: 150px;
+    }
+}
