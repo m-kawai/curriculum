@@ -1,0 +1,56 @@
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 600px;
+}
+
+div.one,div.two,div.three,div.four {
+    height: 150px;
+    width: 100%;
+}
+
+.one {
+    background-color: #FFFF00;
+}
+
+.two-left {
+    float: left;
+    height: 100%;
+    width: 200px;
+    background-color: #33FFFF;
+}
+
+.two-center {
+    float: left;
+    height: 100%;
+    width: 200px;
+    background-color: #FF0000;
+}
+
+.two-right {
+    float: left;
+    height: 100%;
+    width: 200px;
+    background-color: #0000FF;
+}
+
+.three-left {
+    float: left;
+    height: 100%;
+    width: 450px;
+    background-color: #00FF00;
+}
+
+.three-right {
+    float: left;
+    height: 100%;
+    width: 150px;
+    background-color: #FF00FF;
+}
+
+.four {
+    background-color: #33FFFF;
+}
