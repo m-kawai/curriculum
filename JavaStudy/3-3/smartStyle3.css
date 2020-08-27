@@ -1,0 +1,40 @@
+@media screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 200px;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+    .header-box {
+        height: 160px;
+        width: 60px;
+        margin-right: 70px;
+    }
+
+    .left {
+        float: none;
+        width: 200px;
+    }
+
+    .right {
+        float: none;
+        width: 200px;
+    }
+
+    div.main-box1,div.main-box2,div.main-box3 {
+        margin-left: 30px;
+    
+    }
+
+    .main-box1 {
+     margin-top: 20px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+}
